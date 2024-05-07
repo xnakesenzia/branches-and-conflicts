@@ -1,3 +1,6 @@
 import sys 
 
-print(sys.argv[1] + sys.argv[2])
+x = int(sys.argv[1])
+y = int(sys.argv[2])
+
+print(x + y)
