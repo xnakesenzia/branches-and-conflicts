@@ -1,6 +1,8 @@
 import sys 
 
-x = int(sys.argv[1])
-y = int(sys.argv[2])
+result = sum(int(sys.argv[1]), int(sys.argv[2]))
 
-print(x + y)
+print(result)
+
+def sum(x, y):
+  return x + y
